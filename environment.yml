@@ -1,0 +1,13 @@
+name: lte
+channels:
+  - https://conda.anaconda.org/conda-forge
+dependencies:
+  - numpy
+  - matplotlib
+  - arm_pyart
+  - metpy
+  - pillow
+  - pandas
+  - netcdf4
+  - xarray
+  - jupyter
