@@ -7,10 +7,10 @@ Please select the `ENAC-SSIE-Ubuntu-20-04` Virtual Desktop Infrastructure (VDI) 
 
 1. [Download the AtmProc2025 GitHub repository](https://github.com/ltelab/AtmProc2025/archive/refs/heads/main.zip)
 
-2. Unzip the `AtmProc2025-main.zip` file and move the `AtmProc2025-main` directory within the `/home/<your_username>/Desktop/myfiles/` directory.
+2. Unzip the `AtmProc2026-main.zip` file and move the `AtmProc2026-main` directory within the `/home/<your_username>/Desktop/myfiles/` directory.
    If your data are saved within the `/myfiles` directory, they will be available the next time you reconnect to the VDI. 
 ```sh
-cd ~/Desktop/myfiles/AtmProc2025-main
+cd ~/Desktop/myfiles/AtmProc2026-main
 ```
 
 3. Open a terminal and activate the `lte` environment with:
@@ -25,7 +25,7 @@ micromamba activate lte
 python -m ipykernel install --user --name=lte
 ```
 
-5. Launch the Jupyter Notebook interface with `jupyter notebook`, navigate to the `AtmProc2025-main/Exercise_radar` directory, and open the
+5. Launch the Jupyter Notebook interface with `jupyter notebook`, navigate to the `AtmProc2026-main/Exercise_radar` directory, and open the
   file `Exercise_radar.ipynb`.
 
 6. To execute correctly the Jupyter Notebook, in the top menu bar select `Kernel` >  `Change Kernel... ` and switch the kernel from `Python 3 (ipykernel)` to `lte`.   
@@ -34,7 +34,7 @@ python -m ipykernel install --user --name=lte
 
 ----------------
 
-Alternatively, you can clone the [AtmProc2025 repository](git@github.com:ltelab/AtmProc2025.git) on your laptop and install the required environment using `conda`, `mamba` or `micromamba`:
+Alternatively, you can clone the [AtmProc2026 repository](git@github.com:ltelab/AtmProc2026.git) on your laptop and install the required environment using `conda`, `mamba` or `micromamba`:
 
 1. Go to the directory where you want to clone the repository. As an example:
 
@@ -67,7 +67,7 @@ micromamba activate lte
 python -m ipykernel install --user --name=lte
 ```
 
-6. Launch the Jupyter Notebook interface with `jupyter notebook`, navigate to the `AtmProc2025/Exercise_radar` directory, and open the
+6. Launch the Jupyter Notebook interface with `jupyter notebook`, navigate to the `AtmProc2026/Exercise_radar` directory, and open the
    file `Exercise_radar.ipynb`.
 
 7. To execute correctly the Jupyter Notebook, in the top menu bar select `Kernel` >  `Change Kernel... ` and switch the kernel from `Python 3 (ipykernel)` to `lte`.   
