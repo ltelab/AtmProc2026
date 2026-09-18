@@ -2,7 +2,7 @@
 
 This repository contains the exercices for the EPFL Atmospheric Processes course.
 
-The exercises can be executed directly on the EPFL VMware Horizon platform. 
+The exercises can be executed directly on the EPFL Omnissa Horizon platform. 
 Please select the `ENAC-SSIE-Ubuntu-20-04` Virtual Desktop Infrastructure (VDI) and then follow these steps:
 
 1. [Download the AtmProc2025 GitHub repository](https://github.com/ltelab/AtmProc2025/archive/refs/heads/main.zip)
