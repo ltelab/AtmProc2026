@@ -5,7 +5,7 @@ This repository contains the exercices for the EPFL Atmospheric Processes course
 The exercises can be executed directly on the EPFL Omnissa Horizon platform. 
 Please select the `ENAC-SSIE-Ubuntu-20-04` Virtual Desktop Infrastructure (VDI) and then follow these steps:
 
-1. [Download the AtmProc2025 GitHub repository](https://github.com/ltelab/AtmProc2025/archive/refs/heads/main.zip)
+1. [Download the AtmProc2026 GitHub repository](https://github.com/ltelab/AtmProc2026/archive/refs/heads/main.zip)
 
 2. Unzip the `AtmProc2026-main.zip` file and move the `AtmProc2026-main` directory within the `/home/<your_username>/Desktop/myfiles/` directory.
    If your data are saved within the `/myfiles` directory, they will be available the next time you reconnect to the VDI. 
@@ -45,8 +45,8 @@ cd /home/ghiggi/courses
 2. Clone this repository:
 
 ```sh
-git clone git@github.com:ltelab/AtmProc2025.git
-cd AtmProc2025
+git clone git@github.com:ltelab/AtmProc2026.git
+cd AtmProc2026
 ```
 
 3. Install the dependencies using `conda`, `mamba` or `micromamba`:
